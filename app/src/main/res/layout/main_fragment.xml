@@ -26,9 +26,19 @@
         android:text="message2"
         android:textColor="#0000ff"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/vTestContain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message1" />
+
+    <include
+        android:id="@+id/vTestContain"
+        layout="@layout/layout_include_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/message1" />
+        app:layout_constraintTop_toBottomOf="@+id/message2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

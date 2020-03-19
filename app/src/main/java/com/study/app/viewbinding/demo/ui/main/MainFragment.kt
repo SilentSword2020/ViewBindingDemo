@@ -52,6 +52,8 @@ class MainFragment : Fragment() {
 
         //
         binding.message2.text = "message 222"
+
+        binding.vTestContain.tvTest.text = "TEST MODIFY"
     }
 
 }

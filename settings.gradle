@@ -1,2 +1,3 @@
 rootProject.name='ViewBindingDemo'
 include ':app'
+include ':baselib'
